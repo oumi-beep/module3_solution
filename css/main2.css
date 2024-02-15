@@ -1,0 +1,118 @@
+/* Style for the navigation bar */
+nav {
+    background-color: #333; /* Background color */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center align the content */
+  }
+  
+  /* Style for the checkbox (used for responsive navigation toggle) */
+  #check {
+    display: none; /* Hide the checkbox */
+  }
+  
+  /* Style for the hamburger icon */
+  .checkbtn {
+    font-size: 30px; /* Font size */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  /* Style for the logo */
+  .logo {
+    color: #e6dcdc; /* Text color */
+    font-size: 25px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-transform: uppercase; /* Uppercase text */
+  }
+  
+  /* Style for the navigation links */
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Style for individual navigation items */
+  ul li {
+    display: inline-block; /* Display as inline block */
+    margin: 0 15px; /* Margin between each item */
+  }
+  
+  /* Style for the navigation links */
+  ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+  }
+  
+  /* Hover effect for navigation links */
+  ul li a:hover {
+    color: #7db459; /* Change text color on hover */
+  }
+  
+img {
+  height: 100px; /* Set the height of the image */
+  width: auto; /* Let the width adjust automatically */
+}
+
+.title {
+
+  text-align:left ; 
+  font-style: italic;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  margin-left: 10px;
+}
+.title a:hover {
+    
+  color: #7db459; /* Change text color on hover */
+}
+
+.logo-container {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.container {
+  box-sizing: content-box;
+  text-align: left;
+  max-width: 12000px;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top:15px;
+  align-items: center;
+  margin-left: 350px;
+
+}
+.section1 {
+  float:right;
+  width: 50.33%; 
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  background-color: #c3adad;
+  font-style:normal;
+  font-size: medium;
+}
+.section-title1 {
+  position: relative;
+  max-width: 80px ;
+  margin-left: auto; 
+  background-color: #7a6c6c;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1.25em; 
+  border: 1px solid black ;
+  text-align:center;
+  font-style: oblique;
+
+}
+.Welcome {
+font-size:xx-large;
+font-style: oblique;
+text-align: center;
+margin-left: 450px;
+color: rgb(53, 55, 163);
+}
